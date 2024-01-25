@@ -7,7 +7,7 @@ const predicate = ['an important character trait.', 'the arrival of someone impo
 
 
 // Randomizer functions that will be called upon by the fortune cooke function.
-function intros() {
+function getIntros() {
     let i= Math.floor(Math.random() * intros.length);
     return intros[i];
 }
@@ -28,3 +28,23 @@ function getPredicate() {
 }
 
 
+// Fortune cookie function that will log a random fortune to the console.
+function fortuneCookie () {
+    const introString = getIntros();
+    const subjectString = getSubject();
+    const verbString = getVerb();
+    const predicateString = getPredicate();
+
+    console.log(introString);
+    console.log('');
+    console.log('');
+    console.log('');
+    console.log(`${subjectString} ${verbString} ${predicateString}`);
+    console.log('');
+    console.log('');
+    console.log('');
+    console.log('Leave a tip?');
+    console.log('15% 20% 25%');
+}
+
+fortuneCookie()
