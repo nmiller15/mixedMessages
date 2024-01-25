@@ -1,7 +1,7 @@
 FORTUNE COOKIE GENERATOR
 ========================
 
-What if I told you, that I knew your future? You probably wouldn't believe me. And for good reason... I don't! But, I can generate you a random fortune. What an opportunity!! All the fun of Chinese food without the calories and sodium! 
+What if I told you that I knew your future? You probably wouldn't believe me. And for good reason... I don't! But, I can generate you a random fortune. What an opportunity!! All the fun of Chinese food without the calories and sodium! 
 
 FEATURES
 --------
