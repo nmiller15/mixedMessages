@@ -35,14 +35,16 @@ function fortuneCookie () {
     const verbString = getVerb();
     const predicateString = getPredicate();
 
+    console.log('.');
+    console.log('..');
     console.log(introString);
-    console.log('');
-    console.log('');
-    console.log('');
+    console.log('..');
+    console.log('.');
+    console.log('..');
     console.log(`${subjectString} ${verbString} ${predicateString}`);
-    console.log('');
-    console.log('');
-    console.log('');
+    console.log('..');
+    console.log('.');
+    console.log('..');
     console.log('Leave a tip?');
     console.log('15% 20% 25%');
 }
